@@ -1,12 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# PASSWORD PROMPT
-read -sp "Enter password: " PASS
-echo
-
-if [ "$PASS" != "zpxel" ]; then
-    echo "Wrong password!"
-    exit 1
-fi
 
 # ENCODED PAYLOAD
 ENCODED_SCRIPT="$(cat encoded.txt)"
