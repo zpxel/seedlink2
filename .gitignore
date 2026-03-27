@@ -1,0 +1,19 @@
+# Compiled Python / Cython files
+build/
+*.pyc
+__pycache__/
+
+# Backup / source files
+*.bak
+
+# Shell obfuscation intermediates
+*.x.c
+*.obf.sh
+prit.sh        # original shell (has password)
+encrypt.py     # contains keys, do not upload
+setup.py       # setup obfuscation
+
+# OS / editor files
+*.swp
+*.swo
+.DS_Store
